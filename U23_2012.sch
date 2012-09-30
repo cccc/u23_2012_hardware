@@ -23713,6 +23713,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="T1" library="transistor" deviceset="BC337" device=""/>
 <part name="TP1" library="testpad" deviceset="TP" device="TP20SQ"/>
 <part name="TP2" library="testpad" deviceset="TP" device="TP20SQ"/>
+<part name="R29" library="rcl" deviceset="R-EU_" device="0207/10" value="270"/>
 </parts>
 <sheets>
 <sheet>
@@ -25439,6 +25440,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="T1" gate="G$1" x="162.56" y="137.16"/>
 <instance part="TP1" gate="G$1" x="165.1" y="152.4"/>
 <instance part="TP2" gate="G$1" x="165.1" y="154.94" rot="R180"/>
+<instance part="R29" gate="G$1" x="154.94" y="137.16"/>
 </instances>
 <busses>
 </busses>
@@ -25673,6 +25675,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="165.1" y1="162.56" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
 <label x="165.1" y="160.02" size="1.778" layer="95"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="PD8" class="0">
+<segment>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
+<label x="142.24" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
