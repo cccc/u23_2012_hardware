@@ -1,7 +1,7 @@
 Count;Desc;Digikey;Pollin;Unit;Name
 6;tactile button;679-2428-ND;;MISC;S1, S2, S3, S4, S5, S6
 1;VGA;SDS108-PRW1-F15-SN13-1;;VGA;X1
-5;LED 3mm rot;WP3A8HD;;MISC;LED1, LED2, LED3, LED4, LED5
+5;LED 3mm rot;WP3A8HD;http://www.pollin.de/shop/dt/MDk3OTkxOTk-/Bauelemente_Bauteile/Sortimente/Aktive_Bauteile/Leuchtdioden_Set.html;MISC;LED1, LED2, LED3, LED4, LED5
 2;header;S9201-ND;http://www.pollin.de/shop/dt/OTM2ODQ1OTk-/Bauelemente_Bauteile/Mechanische_Bauelemente/Steckverbinder_Klemmen/Buchsenleiste_vergoldet_2x_25_polig.html;MAIN;SV1, SV2
 3;ceramic 100n;478-5741-ND;;MISC;C4, C12, C13
 8;ceramic 100n smd;311-1343-1-ND;;NETWORK;C1, C2, C5, C6, C7, C9, C10, C11
@@ -23,7 +23,7 @@ Count;Desc;Digikey;Pollin;Unit;Name
 2;R270;311-240GRCT-ND;;NETWORK;R14, R15
 4;R2k2;P2.2KGCT-ND;;NETWORK;R12, R13, R16, R17
 1;R4k87;311-4.87KHRCT-ND;;NETWORK;R18
-1;SDCARD;http://www.digikey.com/product-detail/en/10067847-001RLF/609-3956-1-ND/2283479;;SDCARD;U$2
+1;SDCARD;http://www.digikey.com/product-detail/en/10067847-001RLF/609-3956-1-ND/2283479;http://www.pollin.de/shop/dt/Mjc0ODQ1OTk-/Computer_und_Zubehoer/Hardware/Speicherkarten/SD_Speicherkarten_Sockel_ATOM_SD01_AP20324.html;SDCARD;U$2
 10;SNES pins;;;MISC;U$3,U$4
-1;ceramic 10n;445-1311-2-ND;;NETWORK;C3
+1;ceramic 10n;399-1091-1-ND;;NETWORK;C3
 1;BC337;BC33725TACT-ND;;MISC;T1
