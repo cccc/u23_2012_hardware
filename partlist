@@ -1,0 +1,85 @@
+Partlist
+
+Exported from U23_2012.sch at 30.09.12 19:52
+
+EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device         Package  Library      Sheet
+
+C1       0.1µF          C-EUC0603      C0603    resistor     3
+C2       0.1µF          C-EUC0603      C0603    resistor     3
+C3       0.01µF         CPOL-EUSMCC    SMC_C    rcl          3
+C5       0.1µF          C-EUC0603      C0603    rcl          3
+C6       0.1µF          C-EUC0603      C0603    rcl          3
+C7       0.1µF          C-EUC0603      C0603    rcl          3
+C8       10µF           CPOL-EUSMCC    SMC_C    rcl          3
+C9       0.1µF          C-EUC0603      C0603    rcl          3
+C10      0.1µF          C-EUC0603      C0603    rcl          3
+C11      0.1µF          C-EUC0603      C0603    rcl          3
+LED1                    LED3MM         LED3MM   led          6
+LED2                    LED3MM         LED3MM   led          6
+LED3                    LED3MM         LED3MM   led          6
+LED4                    LED3MM         LED3MM   led          6
+LED5                    LED3MM         LED3MM   led          6
+R1       270            R-EU_0207/10   0207/10  rcl          1
+R2       560            R-EU_0207/10   0207/10  rcl          1
+R3       1100           R-EU_0207/10   0207/10  rcl          1
+R4       270            R-EU_0207/10   0207/10  rcl          1
+R5       560            R-EU_0207/10   0207/10  rcl          1
+R6       1k1            R-EU_0207/10   0207/10  rcl          1
+R7       240            R-EU_0207/10   0207/10  rcl          1
+R8       470            R-EU_0207/10   0207/10  rcl          1
+R9       150            R-EU_0207/10   0207/10  rcl          1
+R10      150            R-EU_0207/10   0207/10  rcl          1
+R11      150            R-EU_0207/10   0207/10  rcl          1
+R12      2k2            R-EU_R0603     R0603    resistor     3
+R13      2k2            R-EU_R0603     R0603    resistor     3
+R14      240            R-EU_R0603     R0603    resistor     3
+R15      240            R-EU_R0603     R0603    resistor     3
+R16      2k2            R-EU_R0603     R0603    resistor     3
+R17      2k2            R-EU_R0603     R0603    resistor     3
+R18      4k78           R-EU_R0603     R0603    rcl          3
+R19      47k            R-EU_0207/10   0207/10  rcl          4
+R20      47k            R-EU_0207/10   0207/10  rcl          4
+R21      47k            R-EU_0207/10   0207/10  rcl          4
+R22      47k            R-EU_0207/10   0207/10  rcl          4
+R23      47k            R-EU_0207/10   0207/10  rcl          4
+R24      1k             R-EU_0207/10   0207/10  rcl          6
+R25      1k             R-EU_0207/10   0207/10  rcl          6
+R26      1k             R-EU_0207/10   0207/10  rcl          6
+R27      1k             R-EU_0207/10   0207/10  rcl          6
+R28      1k             R-EU_0207/10   0207/10  rcl          6
+R29      10k            R-EU_0207/10   0207/10  rcl          6
+R30      10k            R-EU_0207/10   0207/10  rcl          6
+R31      10k            R-EU_0207/10   0207/10  rcl          6
+R32      10k            R-EU_0207/10   0207/10  rcl          6
+R33      10k            R-EU_0207/10   0207/10  rcl          6
+R34      10k            R-EU_0207/10   0207/10  rcl          6
+RN1      2k2            4R-N0603-ARV   0603-ARV resistor-dil 3
+RN2      51             4R-N0603-ARV   0603-ARV resistor-dil 3
+S1                      10-XX          B3F-10XX switch-omron 6
+S2                      10-XX          B3F-10XX switch-omron 6
+S3                      10-XX          B3F-10XX switch-omron 6
+S4                      10-XX          B3F-10XX switch-omron 6
+S5                      10-XX          B3F-10XX switch-omron 6
+S6                      10-XX          B3F-10XX switch-omron 6
+SV1                     ML50           ML50     con-ml       2
+SV2                     ML50           ML50     con-ml       2
+U$1      DP83848CVV     DP83848CVV     LQFP-44  library      3
+U$2      SD-CARD        SD-CARD        SD_CARD  library      4
+U$3      SNES           SNES           SNES     library      5
+U$4      SNES           SNES           SNES     library      5
+U$5                     FXO_HC73       FXO_HC73 library      3
+U$6      DO_WHAT_I_WANT DO_WHAT_I_WANT NONE     library      3
+U$7      DO_WHAT_I_WANT DO_WHAT_I_WANT NONE     library      3
+U$8      DO_WHAT_I_WANT DO_WHAT_I_WANT NONE     library      3
+U$9      DO_WHAT_I_WANT DO_WHAT_I_WANT NONE     library      3
+U$10     DO_WHAT_I_WANT DO_WHAT_I_WANT NONE     library      3
+U$11     DO_WHAT_I_WANT DO_WHAT_I_WANT NONE     library      3
+U$12     DO_WHAT_I_WANT DO_WHAT_I_WANT NONE     library      3
+U$13     DO_WHAT_I_WANT DO_WHAT_I_WANT NONE     library      3
+U$14     DO_WHAT_I_WANT DO_WHAT_I_WANT NONE     library      3
+X1                      F15HDHS        HDF15H   con-subd     1
+X2       J1006F01P      J1006F01P      J1       con-pulse    3
