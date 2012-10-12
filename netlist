@@ -1,6 +1,6 @@
 Netlist
 
-Exported from U23_2012.sch at 30.09.12 23:27
+Exported from U23_2012.sch at 12.10.12 18:06
 
 EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
 
@@ -20,11 +20,13 @@ Net      Part     Pad      Pin        Sheet
          R21      2        2          4
          R22      2        2          4
          R23      2        2          4
-         RN1      6        2          3
-         RN1      7        2          3
-         RN1      8        2          3
+         RN1      A2       2          3
+         RN1      B2       2          3
+         RN1      C2       2          3
          SV2      5        5          2
          SV2      6        6          2
+         SV3      1        1          3
+         SV3      2        2          3
          TP2      TP       TP         6
          U$1      22       AVDD33     3
          U$1      32       IOVDD33    3
@@ -60,15 +62,14 @@ BLUE     R11      1        1          1
 
 BOOT0    SV2      21       21         2
 
-CRS_DV   R16      1        1          3
-         U$1      40       CRS/CRS_DV/LED_CFG 3
-         U$8      A        1          3
-
 GND      C1       2        2          3
          C10      2        2          3
          C11      2        2          3
+         C12      2        2          5
+         C13      2        2          5
          C2       2        2          3
          C3       1        1          3
+         C4       1        1          4
          C5       2        2          3
          C6       2        2          3
          C7       2        2          3
@@ -82,6 +83,7 @@ GND      C1       2        2          3
          R10      2        2          1
          R11      2        2          1
          R18      1        1          3
+         R9       2        2          1
          SV1      1        1          2
          SV1      2        2          2
          SV1      23       23         2
@@ -92,6 +94,8 @@ GND      C1       2        2          3
          SV2      2        2          2
          SV2      49       49         2
          SV2      50       50         2
+         SV3      3        3          3
+         SV3      4        4          3
          T1       1        E          6
          U$1      15       AGND       3
          U$1      19       AGND       3
@@ -122,37 +126,31 @@ GREEN    R10      1        1          1
          R6       2        2          1
          X1       2        F          1
 
-MDC      U$1      31       MDC        3
-         U$9      A        1          3
-
-MDIO     U$1      30       MDIO       3
-         U$7      A        1          3
-
-N$1      RN2      5        2          3
+N$1      RN2      D2       2          3
          U$1      17       TD+        3
          X2       1        TD+        3
 
-N$2      RN2      6        2          3
+N$2      RN2      C2       2          3
          U$1      16       TD-        3
          X2       2        TD-        3
 
-N$3      RN2      7        2          3
+N$3      RN2      B2       2          3
          U$1      14       RD+        3
          X2       7        RD+        3
 
-N$4      RN2      8        2          3
+N$4      RN2      A2       2          3
          U$1      13       RD-        3
          X2       8        RD-        3
 
-N$5      RN1      1        1          3
+N$5      RN1      A1       1          3
          U$1      28       LED_LINK/AN0 3
          X2       10       C-R        3
 
-N$6      RN1      3        1          3
+N$6      RN1      C1       1          3
          U$1      26       LED_ACT/COL/AN_EN 3
          X2       11       C-L        3
 
-N$7      RN1      2        1          3
+N$7      RN1      B1       1          3
          U$1      27       LED_SPEED/AN1 3
 
 N$8      R12      1        1          3
@@ -165,10 +163,10 @@ N$10     C1       1        1          3
          C2       1        1          3
          R14      2        2          3
          R15      2        2          3
-         RN2      1        1          3
-         RN2      2        1          3
-         RN2      3        1          3
-         RN2      4        1          3
+         RN2      A1       1          3
+         RN2      B1       1          3
+         RN2      C1       1          3
+         RN2      D1       1          3
          X2       3        CT         3
          X2       6        CR         3
 
@@ -217,17 +215,15 @@ NC       SV1      48       48         2
 
 NRST     SV1      6        6          2
 
-OSCIN    U$1      34       X1         3
-         U$5      OUT      OUT        3
-         U$6      A        1          3
-
 PA0      SV1      12       12         2
 
 PA1      SV1      11       11         2
-         U$6      B        2          3
+         U$1      34       X1         3
+         U$5      OUT      OUT        3
 
 PA2      SV1      14       14         2
-         U$7      B        2          3
+         SV3      5        5          3
+         U$1      30       MDIO       3
 
 PA3      SV1      13       13         2
 
@@ -237,8 +233,10 @@ PA5      SV1      15       15         2
 
 PA6      SV1      18       18         2
 
-PA7      SV1      17       17         2
-         U$8      B        2          3
+PA7      R16      1        1          3
+         SV1      17       17         2
+         SV3      8        8          3
+         U$1      40       CRS/CRS_DV/LED_CFG 3
 
 PA8      SV2      43       43         2
 
@@ -288,13 +286,16 @@ PB9      SV2      20       20         2
 PB10     SV1      34       34         2
 
 PB11     SV1      35       35         2
-         U$12     B        2          3
+         SV3      11       11         3
+         U$1      2        TX_EN      3
 
 PB12     SV1      36       36         2
-         U$13     B        2          3
+         SV3      12       12         3
+         U$1      3        TXD_0      3
 
 PB13     SV1      37       37         2
-         U$14     B        2          3
+         SV3      13       13         3
+         U$1      4        TXD_1      3
 
 PB14     SV1      38       38         2
 
@@ -303,17 +304,20 @@ PB15     SV1      39       39         2
 PC0      SV1      8        8          2
 
 PC1      SV1      7        7          2
-         U$9      B        2          3
+         SV3      6        6          3
+         U$1      31       MDC        3
 
 PC2      SV1      10       10         2
 
 PC3      SV1      9        9          2
 
 PC4      SV1      20       20         2
-         U$10     B        2          3
+         SV3      9        9          3
+         U$1      43       RXD_0/PHYAD1 3
 
 PC5      SV1      19       19         2
-         U$11     B        2          3
+         SV3      10       10         3
+         U$1      44       RXD_1/PHYAD2 3
 
 PC6      SV2      47       47         2
 
@@ -440,21 +444,6 @@ RED      R1       2        2          1
          R3       2        2          1
          R9       1        1          1
          X1       1        F          1
-
-RXD0     U$1      43       RXD_0/PHYAD1 3
-         U$10     A        1          3
-
-RXD1     U$1      44       RXD_1/PHYAD2 3
-         U$11     A        1          3
-
-TXD0     U$1      3        TXD_0      3
-         U$13     A        1          3
-
-TXD1     U$1      4        TXD_1      3
-         U$14     A        1          3
-
-TX_EN    U$1      2        TX_EN      3
-         U$12     A        1          3
 
 VDD      SV1      3        3          2
          SV1      4        4          2
