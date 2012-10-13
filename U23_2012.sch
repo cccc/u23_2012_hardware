@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25291,13 +25291,13 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="U$1" gate="G$1" pin="LED_LINK/AN0"/>
 <wire x1="96.52" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="71.12" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="71.12" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="C-R"/>
-<wire x1="144.78" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="71.12" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <junction x="119.38" y="71.12"/>
 <pinref part="RN1" gate="A" pin="1"/>
 <wire x1="119.38" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="71.12" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="A-R"/>
+<wire x1="144.78" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -25305,13 +25305,13 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="U$1" gate="G$1" pin="LED_ACT/COL/AN_EN"/>
 <wire x1="96.52" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="66.04" x2="142.24" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="C-L"/>
-<wire x1="142.24" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="66.04" x2="114.3" y2="48.26" width="0.1524" layer="91"/>
 <junction x="114.3" y="66.04"/>
 <pinref part="RN1" gate="C" pin="1"/>
 <wire x1="114.3" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="66.04" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="A-L"/>
+<wire x1="142.24" y1="48.26" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -25537,9 +25537,9 @@ Low profile connectors, straight&lt;p&gt;
 <net name="N$12" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="132.08" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="A-R"/>
-<wire x1="149.86" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="132.08" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="C-R"/>
+<wire x1="149.86" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -25547,9 +25547,9 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="132.08" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="124.46" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="A-L"/>
-<wire x1="147.32" y1="48.26" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="124.46" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="C-L"/>
+<wire x1="147.32" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
