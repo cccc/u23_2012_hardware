@@ -134,7 +134,7 @@
 <text x="20.5" y="34.5" size="1.778" layer="25">RIGHT</text>
 <text x="30.5" y="20.5" size="3.81" layer="25">CHAOS COMPUTER CLUB COLOGNE</text>
 <text x="73.5" y="36.5" size="1.778" layer="25">R2R DAC</text>
-<text x="5" y="91" size="1.778" layer="25">REV 1.0</text>
+<text x="5" y="91" size="1.778" layer="25">REV 1.1</text>
 <text x="5" y="88.5" size="1.778" layer="25">SSTM32</text>
 <polygon width="0" layer="21">
 <vertex x="48.541965625" y="34.494975"/>
@@ -13195,6 +13195,47 @@ design rules under a new name.</description>
 <via x="6" y="21.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="6" y="40" extent="1-16" drill="0.6" shape="square"/>
 <via x="71" y="80.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="15.5" y="96" extent="1-16" drill="0.6" shape="square"/>
+<via x="18" y="87.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="3.5" y="83.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="9" y="64" extent="1-16" drill="0.6" shape="square"/>
+<via x="9" y="56.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="11" y="12.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="25.5" y="16.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="24" y="24" extent="1-16" drill="0.6" shape="square"/>
+<via x="31.5" y="27" extent="1-16" drill="0.6" shape="square"/>
+<via x="39.5" y="14.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="49.5" y="13.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="44.5" y="14.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="51" y="19.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="57" y="22.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="31" y="31.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="44.5" y="31" extent="1-16" drill="0.6" shape="square"/>
+<via x="48" y="31" extent="1-16" drill="0.6" shape="square"/>
+<via x="56.5" y="31.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="56.5" y="44.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="50" y="45" extent="1-16" drill="0.6" shape="square"/>
+<via x="50" y="49.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="56" y="51" extent="1-16" drill="0.6" shape="square"/>
+<via x="66" y="58.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="35.5" y="90" extent="1-16" drill="0.6" shape="square"/>
+<via x="71.5" y="87" extent="1-16" drill="0.6" shape="square"/>
+<via x="76.5" y="83" extent="1-16" drill="0.6" shape="square"/>
+<via x="92" y="77" extent="1-16" drill="0.6" shape="square"/>
+<via x="115.5" y="77" extent="1-16" drill="0.6" shape="square"/>
+<via x="129.5" y="77" extent="1-16" drill="0.6" shape="square"/>
+<via x="146" y="77.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="118" y="58" extent="1-16" drill="0.6" shape="square"/>
+<via x="99.5" y="58" extent="1-16" drill="0.6" shape="square"/>
+<via x="97.5" y="44.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="129.5" y="35" extent="1-16" drill="0.6" shape="square"/>
+<via x="123.5" y="28.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="145.5" y="26.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="146" y="11" extent="1-16" drill="0.6" shape="square"/>
+<via x="123" y="3.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="86" y="5.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="71.5" y="3.5" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="64.5" y1="3" x2="71.5" y2="3.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PE15">
 <contactref element="R1" pad="1"/>
@@ -14650,128 +14691,8 @@ design rules under a new name.</description>
 <vertex x="149" y="1"/>
 </polygon>
 </signal>
-<signal name="N$22">
-<via x="92" y="77" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$25">
-<via x="115.5" y="77" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$26">
-<via x="129.5" y="77" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$27">
-<via x="146" y="77.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$28">
-<via x="146" y="11" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$29">
-<via x="145.5" y="26.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$30">
-<via x="129.5" y="35" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$31">
-<via x="123.5" y="28.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$32">
-<via x="97.5" y="44.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$33">
-<via x="66" y="58.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$34">
-<via x="99.5" y="58" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$35">
-<via x="118" y="58" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$36">
-<via x="56" y="51" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$37">
-<via x="50" y="49.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$38">
-<via x="50" y="45" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$39">
-<via x="56.5" y="44.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$40">
-<via x="56.5" y="31.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$41">
-<via x="48" y="31" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$42">
-<via x="44.5" y="31" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$43">
-<via x="51" y="19.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$44">
-<via x="57" y="22.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$45">
-<via x="49.5" y="13.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$46">
-<via x="44.5" y="14.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$47">
-<via x="39.5" y="14.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$48">
-<via x="25.5" y="16.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$49">
-<via x="24" y="24" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$50">
-<via x="31" y="31.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$51">
-<via x="31.5" y="27" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$52">
-<via x="11" y="12.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$53">
-<via x="9" y="56.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$54">
-<via x="9" y="64" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$55">
-<via x="3.5" y="83.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$56">
-<via x="18" y="87.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$57">
-<via x="15.5" y="96" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$58">
-<via x="35.5" y="90" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$59">
-<via x="71.5" y="87" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$60">
-<via x="76.5" y="83" extent="1-16" drill="0.6" shape="square"/>
-</signal>
 <signal name="N$61">
 <via x="86" y="36.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$62">
-<via x="71.5" y="3.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$63">
-<via x="86" y="5.5" extent="1-16" drill="0.6" shape="square"/>
-</signal>
-<signal name="N$64">
-<via x="123" y="3.5" extent="1-16" drill="0.6" shape="square"/>
 </signal>
 </signals>
 </board>
